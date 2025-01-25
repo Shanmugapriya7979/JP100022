@@ -24,7 +24,7 @@ public class project_4 {
                 System.out.println("Enter path as \"C:\\Users\\Admin\\Desktop\\example_file.txt\"");
                 String filePath = scanner.nextLine();
 
-                // Remove surrounding quotes if present
+                
                 filePath = filePath.strip().replaceAll("^\"|\"$", "");
 
                 File file = new File(filePath);
@@ -76,7 +76,7 @@ public class project_4 {
                 .map(Map.Entry::getKey)
                 .orElse("None");
 
-        // Display results
+        
         System.out.println("\n--- File Analysis ---");
         System.out.println("Number of lines: " + lineCount);
         System.out.println("Number of words: " + wordCount);
