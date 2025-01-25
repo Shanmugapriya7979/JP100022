@@ -102,4 +102,3 @@ public class project_4 {
         }
     }
 }
-//"C:\Users\Admin\Desktop\SampleTextFile_100kb.txt"
