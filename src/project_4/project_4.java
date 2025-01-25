@@ -31,7 +31,7 @@ public class project_4 {
 
                 if (!file.exists() || !file.isFile()) {
                     System.out.println("Invalid file path. Please provide a valid text file.");
-                    continue; // Restart the loop if the file path is invalid
+                    continue; 
                 }
 
                 analyzeFile(file);
